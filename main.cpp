@@ -1,6 +1,7 @@
 #include <iostream>
 #include <string>
-#include "headers/ArpService.h"
+#include "../include/headers/ArpService.hpp"
+#include <SFML/Graphics.hpp>
 
 using namespace std;
 
