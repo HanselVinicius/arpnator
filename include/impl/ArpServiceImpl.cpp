@@ -7,7 +7,7 @@
 using namespace std;
 
 string executeArp() {
-    const char* cmd = "arp -v";
+    const char* cmd = "arp -a";
 
     unique_ptr<FILE, decltype(&pclose)> pipe(popen(cmd, "r"), pclose);
     if (!pipe) {
