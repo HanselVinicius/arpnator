@@ -6,7 +6,7 @@ using namespace sf;
 void prepareUi(RenderWindow& window);
 
 void drawUi(){
-    RenderWindow window(VideoMode(800, 600), "Minha Janela SFML");
+    RenderWindow window(VideoMode(800, 600), "Arpnator");
     prepareUi(window);
 }
 
