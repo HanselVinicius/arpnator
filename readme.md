@@ -1,3 +1,5 @@
+# Arpinator - C
+
 How To run (cmake needed):
 install sfml: sudo apt-get install libsfml-dev
 
